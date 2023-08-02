@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PhotoStorage</string>
+    <string name="choose_photo_from">Choose a photo from:</string>
 </resources>

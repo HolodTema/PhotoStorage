@@ -4,6 +4,9 @@ plugins {
 }
 
 android {
+    buildFeatures {
+        viewBinding = true
+    }
     namespace 'com.terabyte.photostorage'
     compileSdk 33
 
@@ -33,6 +36,8 @@ android {
 }
 
 dependencies {
+    //retrofit to communicate with the server
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
 
     implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
